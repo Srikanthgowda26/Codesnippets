@@ -11,7 +11,7 @@ import org.testng.Assert;
 public class basicaAuth {
 
 	public static void main(String[] args) {
-		// Initialize the ChromeDriver drive dri
+		// Initialize the ChromeDriver initializing
         WebDriver driver = new ChromeDriver();
 
         String urlWithAuth = "http://admin:admin@the-internet.herokuapp.com/basic_auth";
